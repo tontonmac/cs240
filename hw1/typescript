@@ -1,0 +1,25 @@
+Script started on Wed 30 Jan 2013 05:52:36 PM EST
+mcamara@cya:~/cs240/hw1$ exit./hello gcc -o hello hello.c[9Pcat[C[C[C[C[C[C[C[C[6Pls -l
+total 10
+-rwxr-xr-x 1 mcamara cs240-1G 8377 Jan 30 17:39 hello
+-rw-r--r-- 1 mcamara cs240-1G  143 Jan 30 13:31 hello.c
+-rw-r--r-- 1 mcamara cs240-1G    0 Jan 30 17:52 typescript
+mcamara@cya:~/cs240/hw1$ cat hello.c
+/*Hello: first homework assignment
+ name: Mohamed Camara
+ date: 02/05/2013
+*/
+
+	#include <stdio.h>
+
+	main()
+	{
+		printf("Hello, World!\n");
+	}
+mcamara@cya:~/cs240/hw1$ gcc -o hello hello.c
+mcamara@cya:~/cs240/hw1$ ./hello 
+Hello, World!
+mcamara@cya:~/cs240/hw1$ exit
+exit
+
+Script done on Wed 30 Jan 2013 05:53:30 PM EST
