@@ -3,9 +3,9 @@ name: Mohamed Camara
 date: 02/05/2013
 */
 
-	#include <stdio.h>
+#include <stdio.h>
 
-	main()
-	{
-		printf("Hello World!\n");
-	}
+main()
+{
+	printf("Hello World!\n");
+}
