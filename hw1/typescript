@@ -1,10 +1,10 @@
-Script started on Wed 30 Jan 2013 05:52:36 PM EST
-mcamara@cya:~/cs240/hw1$ exit./hello gcc -o hello hello.c[9Pcat[C[C[C[C[C[C[C[C[6Pls -l
+Script started on Tue 05 Feb 2013 04:41:13 PM EST
+mcamara@blu:~/cs240/hw1$ ls -l
 total 10
--rwxr-xr-x 1 mcamara cs240-1G 8377 Jan 30 17:39 hello
--rw-r--r-- 1 mcamara cs240-1G  143 Jan 30 13:31 hello.c
--rw-r--r-- 1 mcamara cs240-1G    0 Jan 30 17:52 typescript
-mcamara@cya:~/cs240/hw1$ cat hello.c
+-rwxr-xr-x 1 mcamara cs240-1G 8377 Jan 31 19:51 hello
+-rw-r--r-- 1 mcamara cs240-1G  165 Jan 31 19:51 hello.c
+-rw-r--r-- 1 mcamara cs240-1G    0 Feb  5 16:41 typescript
+mcamara@blu:~/cs240/hw1$ car[Kt hello.c 
 /*Hello: first homework assignment
  name: Mohamed Camara
  date: 02/05/2013
@@ -12,14 +12,17 @@ mcamara@cya:~/cs240/hw1$ cat hello.c
 
 	#include <stdio.h>
 
-	main()
+	int main(void)
 	{
-		printf("Hello, World!\n");
+		printf("Hello World!\n");
+
+		return 0;
 	}
-mcamara@cya:~/cs240/hw1$ gcc -o hello hello.c
-mcamara@cya:~/cs240/hw1$ ./hello 
-Hello, World!
-mcamara@cya:~/cs240/hw1$ exit
+	
+mcamara@blu:~/cs240/hw1$ gcc -o hello hello.c 
+mcamara@blu:~/cs240/hw1$ ./hello 
+Hello World!
+mcamara@blu:~/cs240/hw1$ exit
 exit
 
-Script done on Wed 30 Jan 2013 05:53:30 PM EST
+Script done on Tue 05 Feb 2013 04:42:30 PM EST

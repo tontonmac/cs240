@@ -1,11 +1,14 @@
 /*Hello: first homework assignment
-name: Mohamed Camara
-date: 02/05/2013
+ name: Mohamed Camara
+ date: 02/05/2013
 */
 
 	#include <stdio.h>
 
-	main()
+	int main(void)
 	{
 		printf("Hello World!\n");
+
+		return 0;
 	}
+	
